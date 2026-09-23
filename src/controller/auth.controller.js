@@ -30,8 +30,6 @@ import AuthModal from "../model/auth.model.js";
   }
 };
 
-
-
  export const login = async (req, res) => {
   try {
     const { email, password } = req.body;
